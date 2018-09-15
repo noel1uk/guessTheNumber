@@ -30,5 +30,8 @@ import { Component } from '@angular/core';
     `
 })
 export class AppComponent {
-  title = 'guessthenumber';
+  deviation: number;
+  noOfTries: number;
+  original: number;
+  guess: number;
 }
