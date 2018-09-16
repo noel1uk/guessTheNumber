@@ -45,5 +45,10 @@ export class AppComponent {
     this.guess = null;
     this.deviation = null;
   }
+
+  verifyGuess() {
+    this.deviation = this.original - this.guess;
+    this.noOfTries = this.noOfTries + 1;
+  }
 }
 
